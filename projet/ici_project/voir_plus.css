@@ -1,0 +1,230 @@
+/* Common styles for boxes */
+.single-box, .single-box1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 1px 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.single-box1 {
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.img-area {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid #ddd;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.img-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.header-text, .header-text1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.line, .line1 {
+  font-size: 16px;
+  color: #555;
+}
+
+.single-box h3, .single-box1 h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #777;
+}
+
+.single-box p, .single-box1 p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #777;
+}
+
+.single-box button, .single-box1 button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff; /* Default background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.single-box button a, .single-box1 button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.single-box:hover, .single-box1:hover {
+  background-color: #a03ec100; /* New background color on hover */
+  color: #fff; /* Text color on hover */
+}
+
+.single-box:hover .line, .single-box1:hover .line1 {
+  color: #fff; /* Text color on hover */
+}
+
+.main.par {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+/* Common styles for boxes */
+.single-box, .single-box1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 1px 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.single-box1 {
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.img-area {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid #ddd;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.img-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.header-text, .header-text1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.line, .line1 {
+  font-size: 16px;
+  color: #555;
+}
+
+.single-box h3, .single-box1 h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #777;
+}
+
+.single-box p, .single-box1 p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #777;
+}
+
+.single-box button, .single-box1 button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff; /* Default background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.single-box button a, .single-box1 button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.single-box:hover, .single-box1:hover {
+  background-color: #a03ec100; /* New background color on hover */
+  color: #fff; /* Text color on hover */
+}
+
+.single-box:hover .line, .single-box1:hover .line1 {
+  color: #fff; /* Text color on hover */
+}
+
+.main.par {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Navbar custom styles */
+.navbar-custom {
+  background-color: #f8f9fa;
+}
+
+.navbar-custom .navbar-brand img.logo {
+  width: 50px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #555;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-custom .navbar-nav .dropdown-menu .dropdown-item {
+  color: #555;
+}
+
+.navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover {
+  color: #007bff;
+}
+/* Box container for flex layout */
+.box-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Box container for flex layout in the 'par' class */
+.box-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
